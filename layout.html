@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TailwindCSS</title>
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
+  <body class="bg-slate-200">
+    <!-- Navbar start  -->
+    <header class="absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="w-full mx-auto py-2">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <div class="">LOGO</div>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block right-4 top-1">
+              <span class="w-[30px] h-[2px] my-2 block bg-black transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="w-[30px] h-[2px] my-2 block bg-black transition duration-500 ease-in-out"></span>
+              <span class="w-[30px] h-[2px] my-2 block bg-black transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar end  -->
+
+    <div class="container mx-auto mt-20">
+      <div class="lg:grid lg:grid-cols-4 gap-4">
+        <!-- Content  -->
+        <div class="lg:col-span-3 w-full px-8 p-5 bg-slate-300 mb-5">
+          <!-- MY BERITA -->
+          <div>
+            <h2 class="text-center lg:text-left font-bold text-2xl mb-5">BERITA TERBARU</h2>
+            <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+              <!-- berita child  -->
+              <div class="rounded-t-xl overflow-hidden lg:hover:scale-110 transition duration-500 shadow-xl shadow-slate-500">
+                <img src="https://source.unsplash.com/600x400" alt="" class="w-full object-cover object-center" />
+                <div class="bg-white p-5 relative">
+                  <div class="text-slate-800 font-bold text-xl">My Title</div>
+                  <div class="text-slate-600 text-sm text-justify h-20 overflow-hidden">
+                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem
+                    ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                  </div>
+                  <div>
+                    <button
+                      class="shadow-md shadow-yellow-400 absolute bottom-2 right-3 p-2 rounded-xl bg-slate-800 text-sm text-white font-bold animate-bounce"
+                    >
+                      Baca !
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-t-xl overflow-hidden lg:hover:scale-110 transition duration-500 shadow-xl shadow-slate-500">
+                <img src="https://source.unsplash.com/600x400" alt="" class="w-full object-cover object-center" />
+                <div class="bg-white p-5 relative">
+                  <div class="text-slate-800 font-bold text-xl">My Title</div>
+                  <div class="text-slate-600 text-sm text-justify h-20 overflow-hidden">
+                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem
+                    ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                  </div>
+                  <div>
+                    <button
+                      class="shadow-md shadow-yellow-400 absolute bottom-2 right-3 p-2 rounded-xl bg-slate-800 text-sm text-white font-bold animate-bounce"
+                    >
+                      Baca !
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-t-xl overflow-hidden lg:hover:scale-110 transition duration-500 shadow-xl shadow-slate-500">
+                <img src="https://source.unsplash.com/600x400" alt="" class="w-full object-cover object-center" />
+                <div class="bg-white p-5 relative">
+                  <div class="text-slate-800 font-bold text-xl">My Title</div>
+                  <div class="text-slate-600 text-sm text-justify h-20 overflow-hidden">
+                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem
+                    ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                  </div>
+                  <div>
+                    <button
+                      class="shadow-md shadow-yellow-400 absolute bottom-2 right-3 p-2 rounded-xl bg-slate-800 text-sm text-white font-bold animate-bounce"
+                    >
+                      Baca !
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-t-xl overflow-hidden lg:hover:scale-110 transition duration-500 shadow-xl shadow-slate-500">
+                <img src="https://source.unsplash.com/600x400" alt="" class="w-full object-cover object-center" />
+                <div class="bg-white p-5 relative">
+                  <div class="text-slate-800 font-bold text-xl">My Title</div>
+                  <div class="text-slate-600 text-sm text-justify h-20 overflow-hidden">
+                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem
+                    ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                  </div>
+                  <div>
+                    <button
+                      class="shadow-md shadow-yellow-400 absolute bottom-2 right-3 p-2 rounded-xl bg-slate-800 text-sm text-white font-bold animate-bounce"
+                    >
+                      Baca !
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- berita child end  -->
+            </div>
+          </div>
+          <!-- MY BERITA END -->
+        </div>
+        <!-- Content End  -->
+
+        <!-- sidebar start-->
+        <div class="lg:col-span-1 p-5 md:flex md:flex-wrap md:justify-evenly bg-slate-300 mb-5">
+          <!-- Kepala  -->
+          <div class="container mx-auto mb-5 w-full">
+            <h2 class="text-slate-800 font-bold text-2xl mb-5 text-center lg:text-left">Kepala Biro</h2>
+            <hr class="h-0.5 rounded-xl bg-red-500 w-full mb-2" />
+            <img src="https://source.unsplash.com/500x500" class="h-40 w-40 mx-auto object-cover object-top" alt="" />
+            <div class="text-center mt-2">
+              <h3 class="font-bold mx-1 text-xl">Nama Kepala</h3>
+              <h5 class="text-slate-600 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</h5>
+            </div>
+          </div>
+          <!-- Kepala end  -->
+
+          <!-- Link terkait  -->
+          <div class="container mx-auto mb-5 w-full">
+            <h2 class="text-slate-800 font-bold text-2xl mb-5 text-center lg:text-left">Link Terkait</h2>
+            <hr class="h-0.5 rounded-xl bg-red-500 w-full my-2" />
+            <div>
+              <img src="https://source.unsplash.com/200x100" class="w-full h-16 object-cover object-center rounded-xl" alt="" />
+              <p class="text-center text-sm">keterangan</p>
+            </div>
+          </div>
+
+          <div class="container mx-auto mb-5 w-full">
+            <h2 class="text-slate-800 font-bold text-2xl mb-5 text-center lg:text-left">Kepala Biro</h2>
+            <hr class="h-0.5 rounded-xl bg-red-500 w-full my-2" />
+          </div>
+          <!-- Link terkait end  -->
+        </div>
+        <!-- sidebar end  -->
+      </div>
+    </div>
+
+    <!-- FOOTER START -->
+    <div class="bg-slate-800 w-full p-5 pb-10 px-20 text-white lg:flex lg:gap-4">
+      <div class="container mb-5">
+        <h2 class="text-lg">Tentang</h2>
+        <div class="text-sm text-slate-300">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vel, placeat laboriosam perferendis molestiae ratione ducimus,
+          velit ea, mollitia culpa similique animi accusantium unde! Dolorum consequuntur eum eius nam deserunt!
+        </div>
+      </div>
+
+      <div class="container mb-5">
+        <h2 class="text-lg">Social Media</h2>
+        <div class="text-sm text-slate-300 flex gap-2 flex-wrap justify-evenly">
+          <img src="https://source.unsplash.com/100x100" alt="" />
+          <img src="https://source.unsplash.com/100x100" alt="" />
+          <img src="https://source.unsplash.com/100x100" alt="" />
+        </div>
+      </div>
+
+      <div class="container mb-5">
+        <h2 class="text-lg">Kategori Berita</h2>
+        <div class="w-full bg-slate-500 p-2 rounded-xl flex justify justify-between mb-2">
+          <div class="text-sm">Kategori 1</div>
+          <div class="text-sm mr-2 bg-white text-slate-800 rounded-full w-5 text-center">1</div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="h-0.5 rounded-xl bg-slate-400 w-full my-2" />
+    <h5 class="text-center">&copy; Diskominfo Provinsi Jambi</h5>
+    <!-- FOOTER END  -->
+
+    <!-- FOOTER START -->
+    <!-- FOOTER END  -->
+
+    <!-- FOOTER START -->
+    <!-- FOOTER END  -->
+
+    <script src="./dist/js/script.js"></script>
+  </body>
+</html>
